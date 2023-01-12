@@ -34,6 +34,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: var(--black);
+}
+
 /* ////// NAVBAR ////// */
 
 header {
@@ -82,4 +86,13 @@ nav.container {
 
 .brand span {
     color: var(--orange);
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: .85rem;
+    letter-spacing: .5px;
+    display: inline-block;
+    margin: 0 1rem;
 }
