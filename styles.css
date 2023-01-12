@@ -1,3 +1,24 @@
+/* ////// ALL ////// */
+
 :root {
     --orange: #e28c37;
+    --black: #424242;
+    --true-black: #000;
+    --white: #E3e5e8;
+    --grey: #71797E;
+    --light-pink: #FFEFFD;
+    --light-blue: #F0F7FE;
+    --blue: #628EE6;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--light-blue);
 }
