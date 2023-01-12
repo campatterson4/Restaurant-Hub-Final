@@ -66,6 +66,7 @@ nav.container {
 .links {
     display: flex;
     flex: 1;
+    margin-left: 22rem;
 }
 
 .links ul {
