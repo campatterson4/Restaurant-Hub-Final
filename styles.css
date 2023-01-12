@@ -57,3 +57,8 @@ nav.container {
     flex-wrap: wrap;
     align-items: center;
 }
+
+.links {
+    display: flex;
+    flex: 1;
+}
