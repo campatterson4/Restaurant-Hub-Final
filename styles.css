@@ -53,6 +53,7 @@ header {
 header.scrolled {
     background-color: var(--purple);
     box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 
 .container {
@@ -137,5 +138,41 @@ header.scrolled .brand {
 }
 
 .main-area .container {
-    
+    display: grid;
+    grid-template-columns: 2fr;
+    align-items: center;
+    height: calc(100vh - 120px);
+    max-height: 600px;
+    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/bg-img.jpg);
+    background-size: cover;
 }
+
+.main-info {
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.heading {
+    font-size: 6rem;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.heading span {
+    color: var(--orange);
+}
+
+.sub-heading {
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 0.13rem 0.75rem;
+    text-align: center;
+    background-color: var(--orange);
+}
+
+ span .sub-heading {
+    border-left: 3px solid var(--orange);
+
+}
+
