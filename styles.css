@@ -130,3 +130,12 @@ header.scrolled .brand {
 }
 
 /* ////// MAIN ////// */
+.main-area {
+    width: 100%;
+    overflow: hidden;
+    padding: 120px 0;
+}
+
+.main-area .container {
+    
+}
