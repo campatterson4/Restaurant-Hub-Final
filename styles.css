@@ -95,4 +95,9 @@ nav.container {
     letter-spacing: .5px;
     display: inline-block;
     margin: 0 1rem;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: var(--orange);
 }
