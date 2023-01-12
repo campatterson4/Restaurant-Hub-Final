@@ -34,3 +34,12 @@ a {
     text-decoration: none;
 }
 
+/* ////// NAVBAR ////// */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
