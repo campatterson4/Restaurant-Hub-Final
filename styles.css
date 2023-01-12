@@ -10,6 +10,7 @@
     --light-blue: #F0F7FE;
     --blue: #628EE6;
     --purple: #f4f0ff;
+    --dark-orange: #cb7e32;
 }
 
 *,
@@ -100,4 +101,17 @@ nav.container {
 
 .nav-link:hover {
     color: var(--orange);
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--orange);
+    color: var(--white) !important;
+    border-radius: 16px;
+    padding: .8rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--dark-orange);
 }
