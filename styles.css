@@ -47,6 +47,12 @@ header {
     top: 0;
     left: 0;
     z-index: 10;
+    transition: 0.5s;
+}
+
+header.scrolled {
+    background-color: var(--purple);
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -84,10 +90,16 @@ nav.container {
     text-transform: uppercase;
     font-weight: 900;
     color: var(--black);
+    transition: 0.5s;
 }
 
 .brand span {
     color: var(--orange);
+}
+
+header.scrolled .brand {
+    height: 70px;
+    line-height: 70px;
 }
 
 .nav-link {
