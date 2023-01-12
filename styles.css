@@ -9,6 +9,7 @@
     --light-pink: #FFEFFD;
     --light-blue: #F0F7FE;
     --blue: #628EE6;
+    --purple: #f4f0ff;
 }
 
 *,
@@ -21,4 +22,5 @@
 
 body {
     background-color: var(--light-blue);
+    overflow-x: hidden;
 }
