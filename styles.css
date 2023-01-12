@@ -106,7 +106,7 @@ nav.container {
 .btn {
     display: inline-block;
     background-color: var(--orange);
-    color: var(--white) !important;
+    color: var(--purple) !important;
     border-radius: 16px;
     padding: .8rem;
     transition: 0.3s;
