@@ -21,6 +21,16 @@
 }
 
 body {
-    background-color: var(--light-blue);
+    font-family: "Roboto", sans-serif;
+    background-color: var(--purple);
     overflow-x: hidden;
 }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
