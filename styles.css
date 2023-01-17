@@ -220,6 +220,7 @@ header.scrolled .brand {
     width: 100%;
     text-transform: uppercase;
     background-color: #fff;
+    color: var(--black);
     font-size: .8rem;
     cursor: pointer;
     box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
