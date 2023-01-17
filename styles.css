@@ -201,5 +201,16 @@ header.scrolled .brand {
     letter-spacing: 1px;
 }
 
+.how-to-grid {
+    display: grid;
+    grid-template-rows: 190px 190px;
+    grid-template-columns: 190px 190px;
+}
+
+
+
+
+
+
 /* ////// RESTAURANTS SECTION ////// */
 
