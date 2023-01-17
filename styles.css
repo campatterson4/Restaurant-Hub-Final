@@ -206,7 +206,7 @@ header.scrolled .brand {
     justify-content: center;
     grid-template-rows: 190px 190px;
     row-gap: 100px;
-    padding-right: 10rem;
+    margin-right: 5rem;
     grid-template-columns: 190px 190px;
     column-gap: 2.5rem;
 }
