@@ -13,5 +13,9 @@ let reveal = ScrollReveal({
     distance: "60px"
 });
 
-reveal.reveal(".heading", {origin: "top", delay: 100});
-reveal.reveal(".sub-heading", {delay: 550});
+reveal.reveal(".main-heading", {origin: "top", delay: 100});
+reveal.reveal(".main-sub-heading", {delay: 550});
+
+///// HOW TO SCROLL REVEAL
+reveal.reveal(".how-to-heading", {origin: "right", delay: 100});
+reveal.reveal(".how-to-text", {origin: "right", delay: 550});
