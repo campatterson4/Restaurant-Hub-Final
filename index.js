@@ -8,4 +8,10 @@ function nav() {
 window.addEventListener('scroll', nav);
 
 ///// MAIN SCROLL REVEAL
+let reveal = ScrollReveal({
+    duration: 2500,
+    distance: "60px"
+});
 
+reveal.reveal(".heading", {origin: "top"});
+reveal.reveal(".sub-heading", {delay: 450});
