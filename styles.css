@@ -203,9 +203,11 @@ header.scrolled .brand {
 
 .how-to-grid {
     display: grid;
+    padding-top: 6rem;
     grid-template-rows: 190px 190px;
     grid-template-columns: 190px 190px;
 }
+
 
 
 
