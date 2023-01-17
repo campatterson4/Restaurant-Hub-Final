@@ -212,11 +212,28 @@ header.scrolled .brand {
 }
 
 .how-to-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
     text-transform: uppercase;
     background-color: #fff;
+    font-size: .8rem;
 }
+
+.fa-utensils, 
+.fa-tag,
+.fa-location-dot,
+.fa-dice {
+    color: var(--orange);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
 
 
 
