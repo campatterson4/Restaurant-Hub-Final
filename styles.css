@@ -222,6 +222,7 @@ header.scrolled .brand {
     background-color: #fff;
     font-size: .8rem;
     cursor: pointer;
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
 }
 
 .card1 {
