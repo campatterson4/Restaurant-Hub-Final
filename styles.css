@@ -174,8 +174,21 @@ header.scrolled .brand {
 }
 
 /* ////// HOW-TO SECTION ////// */
+.how-to {
+    position: relative;
+    padding: 7rem 0;
+}
 
+.how-to .container {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+}
 
+.how-to .how-to-text {
+    margin: 3rem 0 4rem;
+    color: var(--grey);
+    
+}
 
 
 
