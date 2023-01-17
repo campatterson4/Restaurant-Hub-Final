@@ -19,4 +19,4 @@ reveal.reveal(".main-sub-heading", {delay: 550});
 ///// HOW TO SCROLL REVEAL
 reveal.reveal(".how-to-heading", {origin: "right", delay: 100});
 reveal.reveal(".how-to-text", {origin: "right", delay: 100});
-reveal.reveal(".how-to-card", {origin: "left", delay: 100});
+reveal.reveal(".how-to-card", {origin: "left", delay: 500});
