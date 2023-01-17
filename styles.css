@@ -203,11 +203,20 @@ header.scrolled .brand {
 
 .how-to-grid {
     display: grid;
-    padding-top: 6rem;
+    justify-content: center;
     grid-template-rows: 190px 190px;
+    row-gap: 100px;
+    padding-right: 10rem;
     grid-template-columns: 190px 190px;
+    column-gap: 2.5rem;
 }
 
+.how-to-card {
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #fff;
+}
 
 
 
