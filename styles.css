@@ -218,7 +218,7 @@ header.scrolled .brand {
     align-items: center;
     height: 100%;
     width: 100%;
-    text-transform: uppercase;
+    letter-spacing: 0.5px;
     background-color: #fff;
     color: var(--black);
     font-size: .8rem;
