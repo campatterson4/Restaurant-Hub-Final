@@ -185,10 +185,18 @@ header.scrolled .brand {
 }
 
 .how-to .how-to-text {
-    margin: 3rem 0 4rem;
+    margin: 2.5rem 0 4rem;
     color: var(--grey);
-    
 }
+
+.how-to .how-to-heading {
+    font-size: 4rem;
+    text-align: center;
+    color: var(--orange);
+    text-transform: uppercase;
+    padding: 0 2rem;
+}
+
 
 
 
