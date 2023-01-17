@@ -224,6 +224,11 @@ header.scrolled .brand {
     font-size: .8rem;
     cursor: pointer;
     box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    transition: 0.5s transform !important;
+}
+
+.how-to-card:hover {
+    transform: scale(1.1) !important;
 }
 
 .card1 {
