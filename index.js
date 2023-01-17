@@ -1,5 +1,4 @@
 ///// NAV
-
 const header = document.querySelector('header');
 
 function nav() {
@@ -7,3 +6,6 @@ function nav() {
 }
 
 window.addEventListener('scroll', nav);
+
+///// MAIN SCROLL REVEAL
+
