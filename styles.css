@@ -154,23 +154,33 @@ header.scrolled .brand {
     color: var(--purple);
 }
 
-.heading {
+.main-heading {
     font-size: 6rem;
     letter-spacing: 2px;
     margin-bottom: 2rem;
     text-align: center;
 }
 
-.heading span {
+.main-heading span {
     color: var(--orange);
 }
 
-.sub-heading {
+.main-sub-heading {
     font-weight: 400;
     letter-spacing: 5px;
     padding: 0.13rem 0.75rem;
     text-align: center;
     background-color: var(--orange);
 }
+
+/* ////// HOW-TO SECTION ////// */
+
+
+
+
+
+
+
+
 
 /* ////// RESTAURANTS SECTION ////// */
