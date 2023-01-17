@@ -202,6 +202,7 @@ header.scrolled .brand {
 }
 
 .how-to-grid {
+    position: relative;
     display: grid;
     justify-content: center;
     grid-template-rows: 190px 190px;
@@ -209,6 +210,18 @@ header.scrolled .brand {
     margin-right: 5rem;
     grid-template-columns: 190px 190px;
     column-gap: 2.5rem;
+}
+
+.how-to-grid::before {
+    content: "";
+    position: absolute;
+    height: 275px;
+    width: 275px;
+    left: 50%;
+    top: 48%;
+    border: 15px solid var(--orange);
+    opacity: 0.1;
+    transform: translate(-50%, -50%);
 }
 
 .how-to-card {
