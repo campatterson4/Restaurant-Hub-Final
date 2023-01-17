@@ -25,6 +25,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: var(--purple);
     overflow-x: hidden;
+    /* background-color: var(--white); */
 }
 
 ul {
@@ -46,7 +47,8 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 10;
+    background-color: var(--purple);
+    z-index: 999;
     transition: 0.5s;
 }
 
@@ -135,21 +137,21 @@ header.scrolled .brand {
     width: 100%;
     overflow: hidden;
     padding: 120px 0;
+    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/bg-img.jpg);
+    background-size: cover;
 }
 
 .main-area .container {
     display: grid;
     grid-template-columns: 2fr;
     align-items: center;
-    height: calc(100vh - 120px);
-    max-height: 601px;
-    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/bg-img.jpg);
-    background-size: cover;
+    height: calc(100vh - 100px);
+    max-height: 500px;
 }
 
 .main-info {
     text-transform: uppercase;
-    color: var(--white);
+    color: var(--purple);
 }
 
 .heading {
