@@ -236,6 +236,10 @@ header.scrolled .brand {
     border-radius: 40px 5px 40px 40px;
 }
 
+.card4 {
+    border-radius: 5px 40px 40px 40px;
+}
+
 .fa-utensils, 
 .fa-tag,
 .fa-location-dot,
