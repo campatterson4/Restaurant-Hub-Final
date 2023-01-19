@@ -325,6 +325,10 @@ header.scrolled .brand {
     transition: 0.5s transform !important;
 }
 
+.choose-type-card:hover {
+    transform: scale(1.1) !important;
+}
+
 .choose .choose-heading {
     font-size: 2rem;
     text-align: center;
