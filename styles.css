@@ -270,8 +270,15 @@ header.scrolled .brand {
 }
 
 
-
-
+.divider {
+    font-size: 4rem;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 7rem;
+    text-align: center;
+    color: var(--black);
+}
 
 
 
@@ -280,4 +287,58 @@ header.scrolled .brand {
 
 
 /* ////// RESTAURANTS SECTION ////// */
+.choose {
+    position: relative;
+    padding: 3rem 0;
+}
+
+.choose .container1 {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    margin-left: 3rem;
+}
+
+.choose-grid {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 190px 190px 190px;
+    column-gap: 2.5rem;
+    margin-right: 5rem;
+    grid-template-rows: 190px 190px 190px;
+    row-gap: 15px;
+}
+
+.choose-type-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 85%;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+    color: var(--black);
+    font-size: .8rem;
+    cursor: pointer;
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    transition: 0.5s transform !important;
+}
+
+.choose .choose-heading {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--orange);
+    text-transform: uppercase;
+    padding: 0 2rem;
+    letter-spacing: 1px;
+}
+
+.card5,
+.card6,
+.card7,
+.card8,
+.card9 {
+    border-radius: 40px 40px 40px 40px;
+}
 
