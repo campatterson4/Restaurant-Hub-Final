@@ -286,7 +286,7 @@ header.scrolled .brand {
 
 
 
-/* ////// RESTAURANTS SECTION ////// */
+/* ////// TYPE SECTION ////// */
 .choose {
     position: relative;
     padding: 3rem 0;
@@ -294,7 +294,7 @@ header.scrolled .brand {
 
 .choose .container1 {
     display: grid;
-    grid-template-columns: 1.05fr 1fr;
+    grid-template-columns: 1.05fr 1.05fr;
     margin-left: 5rem;
 }
 
@@ -345,29 +345,55 @@ header.scrolled .brand {
 .card9 {
     border-radius: 40px 40px 40px 40px;
     color: var(--white);
+    background-size: cover;
 }
 
 .card5 {
     background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/italian-img.png);
-    background-size: cover;
 }
 
 .card6 {
     background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/american-img.png);
-    background-size: cover;
 }
 
 .card7 {
     background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/mexican-img.jpeg);
-    background-size: cover;
 }
 
 .card8 {
     background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/seafood-img.jpeg);
-    background-size: cover;
 }
 
 .card9 {
     background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/asian-img.webp);
-    background-size: cover;
+}
+
+/* PRICE SECTION */
+.choose-price-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 85%;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+    color: var(--black);
+    font-size: .8rem;
+    cursor: pointer;
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    transition: 0.5s transform !important;
+}
+
+.choose-price-card:hover {
+    transform: scale(1.1) !important;
+}
+
+.choose .price-heading {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--orange);
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
 }

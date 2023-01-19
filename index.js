@@ -20,3 +20,5 @@ reveal.reveal(".main-sub-heading", {delay: 550});
 reveal.reveal(".how-to-heading", {origin: "right", delay: 100});
 reveal.reveal(".how-to-text", {origin: "right", delay: 100});
 reveal.reveal(".how-to-card", {origin: "left", delay: 500});
+
+///// CHOOSE SECTION
