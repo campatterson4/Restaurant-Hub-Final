@@ -295,7 +295,7 @@ header.scrolled .brand {
 .choose .container1 {
     display: grid;
     grid-template-columns: 1.05fr 1fr;
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 
 .choose-grid {
@@ -330,7 +330,7 @@ header.scrolled .brand {
     text-align: center;
     color: var(--orange);
     text-transform: uppercase;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     letter-spacing: 1px;
 }
 
@@ -340,5 +340,30 @@ header.scrolled .brand {
 .card8,
 .card9 {
     border-radius: 40px 40px 40px 40px;
+    color: var(--white);
 }
 
+.card5 {
+    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/italian-img.png);
+    background-size: cover;
+}
+
+.card6 {
+    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/american-img.png);
+    background-size: cover;
+}
+
+.card7 {
+    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/mexican-img.jpeg);
+    background-size: cover;
+}
+
+.card8 {
+    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/seafood-img.jpeg);
+    background-size: cover;
+}
+
+.card9 {
+    background-image: linear-gradient(to bottom, transparent, var(--black)) ,url(./resources/images/asian-img.webp);
+    background-size: cover;
+}
